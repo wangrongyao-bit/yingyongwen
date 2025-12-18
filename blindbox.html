@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>盲盒主题英语发言稿讲义</title>
+    <style>
+        /* 基础排版：适配A4纸张 */
+        @page {
+            size: A4;
+            margin: 2cm;
+        }
+        body {
+            font-family: "Times New Roman", SimSun, serif;
+            font-size: 12pt; /* A4打印常用字号 */
+            line-height: 1.5;
+            margin: 0 auto;
+            max-width: 21cm; /* A4宽度 */
+            padding: 1cm;
+            box-sizing: border-box;
+        }
+        /* 标题样式 */
+        h1 {
+            font-size: 16pt;
+            text-align: center;
+            margin-bottom: 1cm;
+            font-weight: bold;
+        }
+        h2 {
+            font-size: 14pt;
+            margin-top: 1cm;
+            margin-bottom: 0.5cm;
+            color: #333;
+            border-bottom: 1px solid #ccc;
+            padding-bottom: 0.2cm;
+        }
+        /* 配图样式：进一步缩小图片尺寸，适配Labubu主题 */
+        .img-container {
+            text-align: center;
+            margin: 1cm 0;
+        }
+        .img-container img {
+            max-width: 8cm; /* 从10cm进一步缩小到8cm */
+            max-height: 6cm; /* 从8cm缩小到6cm */
+            height: auto;
+            border: 1px solid #eee;
+        }
+        /* 文本分区 */
+        .content-section {
+            margin-bottom: 1cm;
+        }
+        /* 重点词汇样式：移除下划线 */
+        .vocab-list {
+            list-style: none;
+            padding: 0;
+            column-count: 2; /* 两列排版，节省空间 */
+            column-gap: 1cm;
+        }
+        .vocab-list li {
+            margin: 0.3cm 0;
+            break-inside: avoid; /* 防止单词跨列 */
+        }
+        .vocab-word {
+            font-weight: bold;
+            color: #0066cc;
+            cursor: pointer; /* 点击提示 */
+            /* 移除下划线：删除text-decoration: underline; */
+        }
+        .vocab-pos {
+            font-style: italic;
+            color: #666;
+            margin: 0 0.5em;
+        }
+        /* 重点句型样式 */
+        .sentence-list {
+            padding-left: 1.5em;
+        }
+        .sentence-list li {
+            margin: 0.5cm 0;
+        }
+        .sentence-eng {
+            font-weight: bold;
+            margin-bottom: 0.2cm;
+        }
+        .sentence-cn {
+            color: #555;
+        }
+        /* 句型功能标签样式 */
+        .sentence-tag {
+            display: inline-block;
+            background-color: #f0f7ff;
+            color: #0066cc;
+            padding: 0.1cm 0.3cm;
+            border-radius: 3px;
+            font-size: 9pt;
+            margin-right: 0.5em;
+            font-weight: normal;
+        }
+        /* 英文文本朗读按钮 */
+        .read-btn {
+            background-color: #0066cc;
+            color: white;
+            border: none;
+            padding: 0.3cm 0.5cm;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 10pt;
+            margin-bottom: 0.5cm;
+        }
+        .read-btn:hover {
+            background-color: #0052a3;
+        }
+        /* 居中加粗的标题文本样式 */
+        .center-bold {
+            text-align: center;
+            font-weight: bold;
+            margin: 0.5cm 0;
+        }
+        /* 打印优化 */
+        @media print {
+            body {
+                padding: 0;
+            }
+            .no-print, .read-btn {
+                display: none; /* 打印时隐藏非必要元素 */
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- 标题 -->
+    <h1>What's Hidden Inside the Blind Box?</h1>
+
+    <!-- 配图区域：使用本地图片 -->
+    <div class="img-container">
+        <img src="teenagers-blindbox.jpg" alt="青少年拆盲盒场景图">
+        <p style="font-size: 10pt; color: #666; margin-top: 0.3cm;">图：青少年拆盲盒消费实际场景</p>
+    </div>
+
+    <!-- 题目 -->
+    <div class="content-section">
+        <h2>题目要求</h2>
+        <p>当前，"盲盒消费"在青年群体中广为流行。请你围绕"What's Hidden Inside the Blind Box?"这一话题写一篇发言稿，在英语课上分享。内容包括：</p>
+        <ol>
+            <li>陈述现象；</li>
+            <li>发表看法。</li>
+        </ol>
+    </div>
+
+    <!-- 英文原文（添加朗读功能） -->
+    <div class="content-section">
+        <h2>英文原文</h2>
+        <button class="read-btn" onclick="readText('english-text')">朗读英文全文</button>
+        <div id="english-text">
+            <p class="center-bold">What's Hidden Inside the Blind Box?</p>
+            <p>Hello, everyone!</p>
+            <p>Currently, the blind box craze is going viral among young people, captivating hearts with the excitement of collecting beloved characters or completing sought-after series.</p>
+            <p>Admittedly, its appeal is understandable, ranging from the emotional thrill of unboxing a surprise to its social value in fueling conversations and connections among peers. However, the risks cannot be ignored. First, many get caught in a cycle of endlessly pursuing rare items, leading to impulsive spending or unnecessary waste. More critically, the very mechanism resembles gambling, which may cultivate addictive shopping habits over time.</p>
+            <p>So, what's truly hidden inside isn't just a toy, but an engineered marketing trick. Let's learn to seek joy wisely, without falling into marketing traps.</p>
+            <p>Thank you.</p>
+        </div>
+    </div>
+
+    <!-- 中文译文 -->
+    <div class="content-section">
+        <h2>中文译文</h2>
+        <p class="center-bold">盲盒里究竟藏着什么？</p>
+        <p>大家好！</p>
+        <p>当前，盲盒热潮正在年轻人中病毒式传播，以其收集心爱角色或完成梦寐以求系列的兴奋感捕获人心。</p>
+        <p>诚然，其吸引力是可以理解的，范围从拆开惊喜的情感刺激，到它在同龄人中推动交流与连接的社交价值。然而，风险不容忽视。首先，许多人陷入无休止追求稀有款的循环，导致冲动消费或不必要的浪费。更关键的是，其机制本身类似赌博，长期可能培养成瘾性购物习惯。</p>
+        <p>所以，真正藏在里面的不只是一个玩具，而是一种精心设计的营销手段。让我们学会智慧地寻找快乐，而非落入营销陷阱。</p>
+        <p>谢谢。</p>
+    </div>
+
+    <!-- 重点词汇（移除下划线，保留点击朗读） -->
+    <div class="content-section">
+        <h2>重点词汇</h2>
+        <ul class="vocab-list">
+            <li><span class="vocab-word" onclick="readWord(this)">blind box</span> <span class="vocab-pos">n.</span> 盲盒</li>
+            <li><span class="vocab-word" onclick="readWord(this)">craze</span> <span class="vocab-pos">n.</span> 热潮，狂热</li>
+            <li><span class="vocab-word" onclick="readWord(this)">go viral</span> <span class="vocab-pos">phr.</span> 迅速走红，病毒式传播</li>
+            <li><span class="vocab-word" onclick="readWord(this)">captivate</span> <span class="vocab-pos">v.</span> 吸引，迷住</li>
+            <li><span class="vocab-word" onclick="readWord(this)">sought-after</span> <span class="vocab-pos">adj.</span> 抢手的，受欢迎的</li>
+            <li><span class="vocab-word" onclick="readWord(this)">admittedly</span> <span class="vocab-pos">adv.</span> 诚然，无可否认</li>
+            <li><span class="vocab-word" onclick="readWord(this)">appeal</span> <span class="vocab-pos">n.</span> 吸引力，魅力</li>
+            <li><span class="vocab-word" onclick="readWord(this)">thrill</span> <span class="vocab-pos">n.</span> 刺激，兴奋感</li>
+            <li><span class="vocab-word" onclick="readWord(this)">unbox</span> <span class="vocab-pos">v.</span> 拆开（包装）</li>
+            <li><span class="vocab-word" onclick="readWord(this)">fuel</span> <span class="vocab-pos">v.</span> 推动，助长</li>
+            <li><span class="vocab-word" onclick="readWord(this)">peer</span> <span class="vocab-pos">n.</span> 同龄人，同辈</li>
+            <li><span class="vocab-word" onclick="readWord(this)">ignore</span> <span class="vocab-pos">v.</span> 忽视，忽略</li>
+            <li><span class="vocab-word" onclick="readWord(this)">cycle</span> <span class="vocab-pos">n.</span> 循环，周期</li>
+            <li><span class="vocab-word" onclick="readWord(this)">pursue</span> <span class="vocab-pos">v.</span> 追求，追逐</li>
+            <li><span class="vocab-word" onclick="readWord(this)">rare</span> <span class="vocab-pos">adj.</span> 稀有的，罕见的</li>
+            <li><span class="vocab-word" onclick="readWord(this)">impulsive</span> <span class="vocab-pos">adj.</span> 冲动的</li>
+            <li><span class="vocab-word" onclick="readWord(this)">mechanism</span> <span class="vocab-pos">n.</span> 机制，体制</li>
+            <li><span class="vocab-word" onclick="readWord(this)">resemble</span> <span class="vocab-pos">v.</span> 类似，像</li>
+            <li><span class="vocab-word" onclick="readWord(this)">gambling</span> <span class="vocab-pos">n.</span> 赌博</li>
+            <li><span class="vocab-word" onclick="readWord(this)">cultivate</span> <span class="vocab-pos">v.</span> 培养，养成</li>
+            <li><span class="vocab-word" onclick="readWord(this)">addictive</span> <span class="vocab-pos">adj.</span> 成瘾的，上瘾的</li>
+            <li><span class="vocab-word" onclick="readWord(this)">engineered</span> <span class="vocab-pos">adj.</span> 精心设计的</li>
+            <li><span class="vocab-word" onclick="readWord(this)">trick</span> <span class="vocab-pos">n.</span> 手段，花招</li>
+            <li><span class="vocab-word" onclick="readWord(this)">trap</span> <span class="vocab-pos">n.</span> 陷阱，圈套</li>
+        </ul>
+    </div>
+
+    <!-- 重点句型（添加功能标注） -->
+    <div class="content-section">
+        <h2>重点句型</h2>
+        <ul class="sentence-list">
+            <li>
+                <div class="sentence-eng"><span class="sentence-tag">引出现象</span>Currently, the blind box craze is going viral among young people, captivating hearts with the excitement of...</div>
+                <div class="sentence-cn">当前，盲盒热潮正在年轻人中病毒式传播，以……的兴奋感捕获人心。（现在分词作伴随状语）</div>
+            </li>
+            <li>
+                <div class="sentence-eng"><span class="sentence-tag">分析原因</span>Admittedly, its appeal is understandable, ranging from... to...</div>
+                <div class="sentence-cn">诚然，其吸引力是可以理解的，范围从……到……。（ranging from...to... 作后置定语）</div>
+            </li>
+            <li>
+                <div class="sentence-eng"><span class="sentence-tag">说明后果</span>Many get caught in a cycle of endlessly pursuing rare items, leading to impulsive spending...</div>
+                <div class="sentence-cn">许多人陷入无休止追求稀有款的循环，导致冲动消费……（leading to 作结果状语）</div>
+            </li>
+            <li>
+                <div class="sentence-eng"><span class="sentence-tag">总结观点</span>What's truly hidden inside isn't just a toy, but an engineered marketing trick.</div>
+                <div class="sentence-cn">真正藏在里面的不只是一个玩具，而是一种精心设计的营销手段。（what引导主语从句；not just...but... 并列结构）</div>
+            </li>
+        </ul>
+    </div>
+
+    <!-- 打印提示（非必要，打印时隐藏） -->
+    <div class="no-print" style="text-align: center; margin-top: 2cm; color: #999;">
+        <p>💡 打印提示：浏览器右键选择「打印」，纸张尺寸选择「A4」即可直接打印讲义</p>
+    </div>
+
+    <script>
+        // 朗读单词/短语
+        function readWord(element) {
+            const word = element.textContent.trim();
+            const speech = new SpeechSynthesisUtterance(word);
+            speech.lang = 'en-US'; // 设置为美式英语
+            window.speechSynthesis.speak(speech);
+        }
+
+        // 朗读英文文本
+        function readText(elementId) {
+            const textElement = document.getElementById(elementId);
+            const text = textElement.textContent.trim();
+            const speech = new SpeechSynthesisUtterance(text);
+            speech.lang = 'en-US';
+            window.speechSynthesis.speak(speech);
+        }
+    </script>
+</body>
+</html>
